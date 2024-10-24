@@ -1,0 +1,19 @@
+{
+  "name": "dischord-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "deno run --allow-env --allow-read --allow-net --unstable-sloppy-imports src/index.ts",
+    "deploy-commands": "deno run --allow-env --allow-read --allow-net --unstable-sloppy-imports src/deploy-commands.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.9"
+  }
+}
